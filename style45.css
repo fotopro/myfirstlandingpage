@@ -1,0 +1,166 @@
+/*---------------------------------4 page -------------------------------------------*/
+body{
+	overflow-x: hidden;
+}
+.wrapper4p{
+	width: 100%;
+	height: 235px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	margin: 0;
+	padding: 0;
+}
+.wrapper4p h1{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 20px;
+	letter-spacing: 5px;
+	color: #333b46;
+	margin-bottom: 29px;
+	padding-top: 25px;
+	
+}
+.wrapper4p p{
+	color: #81868e;
+	font-size: 14px;
+	letter-spacing: 2px;
+	font-family: 'Open Sans', sans-serif;
+	width: 600px;
+	margin:14px auto;
+}
+
+
+/*---------------------------------5 page -------------------------------------------*/
+
+.images5p{
+	min-width:1000px;
+		margin:0 auto;
+	display: flex;
+		width:100%;
+		max-width: 1371px;
+	height: 319px;
+text-align: center;
+
+}
+
+.centered h1{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 20px;
+	letter-spacing: 5px;
+	color: white;
+	font-weight: 300;
+
+}
+
+.photos{
+		position: relative;
+}
+#ph1{
+	width:701px;
+}
+#ph2{
+	width:336px;
+}
+#ph3{
+	width:334px;
+}
+
+
+.photos img{
+	position: absolute;
+	top:0;
+	left:0;
+	z-index: 5;
+}
+
+
+.default2{
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	width:336px;
+	height: 100%;
+	position: absolute;
+	top:0;
+	left:0;
+	z-index: 6;
+	background-image: url('img/hoverimg25p.png');background-color: rgba(0,0,0,0.75);
+	background-blend-mode: overlay;
+	
+}
+.default3{
+	align-items: center;
+	justify-content: center;
+	display: flex;
+		width:334px;
+	height: 100%;
+	position: absolute;
+	top:0;
+	left:0;
+	z-index: 6;
+	background-image: url('img/hoverimg35p.png');background-color: rgba(0,0,0,0.75);
+	background-blend-mode: overlay;
+	
+}
+
+.default2:hover{
+	opacity:0;
+	transition: opacity 0.3s;
+}
+.default3:hover{
+	opacity:0;
+transition: opacity 0.3s;		
+}
+
+
+.footer5p{
+position: relative;
+		margin:0 auto;
+	display: flex;
+		width:100%;
+		max-width: 1371px;
+	
+}
+
+.imageinfooter{
+width:100%;
+	position: absolute;
+	top: 0;
+	left:0;
+	right: 0;
+	bottom: 0;
+}
+
+}
+.footertext_button button{
+	display: block;
+}
+.footertext_button{
+	display: inline-flex;
+	justify-content: space-between;
+	align-items: center;
+	position: absolute;
+	left: 13%;
+	top:35px;
+	}
+	#para {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: white;
+	font-weight: 300;
+	}
+	#h{
+		font-family: 'Open Sans', sans-serif;
+		font-size: 20px;
+		color: white;
+	}
+	button{
+		background-color: transparent;
+ border-radius:20px;
+ margin-left: 190px;
+ padding: 6px 23px;
+	}
+	button:focus{
+		outline: none;
+	}
